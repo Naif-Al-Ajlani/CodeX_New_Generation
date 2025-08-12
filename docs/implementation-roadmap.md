@@ -24,6 +24,12 @@ This roadmap outlines the steps for evolving the "CodeX New Generation" platform
 1. Set up a GitHub Actions workflow that runs `pnpm lint`, `pnpm test`, and `pytest`.
 2. Include static type checks like `tsc` for TypeScript and `mypy` for Python.
 3. Require the workflow to pass on every pull request before merging.
+=======
+- Establish monorepo layout for frontend, backend, and shared modules.
+- Configure package managers (npm/pnpm for frontend, Python tooling for backend).
+- Set up linting, formatting, and commit hooks.
+- Introduce CI pipeline to run tests and static analysis on every pull request.
+
 
 ## 2. Design System & UX
 - Expand the design system with reusable components and style guidelines.
